@@ -1,7 +1,7 @@
 import sys, json
-import numpy as np
+#import numpy as np
 import math
-import matplotlib.pyplot as plt 
+#import matplotlib.pyplot as plt 
 import scipy.stats as stats 
 
 """

@@ -113,7 +113,7 @@ export const addRequirements = async (req, res) => {
 
         let stringifiedData = JSON.stringify(data); // all unique requirements
 
-        const py_combination = spawn('python3', ['./data_analysis/req_patterns_calc.py', stringifiedData]);
+        const py_combination = spawn('python', ['./data_analysis/req_patterns_calc.py', stringifiedData]);
         var resultString = '';
 
         // Get data from python
@@ -316,7 +316,7 @@ async function findAssociation(user, arr) {
 
         let stringifiedData = JSON.stringify(data); // all unique requirements
 
-        const py_process = spawn('python3', ['./data_analysis/chi_square_indep.py', stringifiedData]);
+        const py_process = spawn('python', ['./data_analysis/chi_square_indep.py', stringifiedData]);
         var resultString = '';
 
         // Get data from python

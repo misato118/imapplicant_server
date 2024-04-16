@@ -1,17 +1,17 @@
 from bs4 import BeautifulSoup
-import pandas as pd
-from gensim.models import Word2Vec
-from sklearn.decomposition import PCA
+#import pandas as pd
+# gensim.models import Word2Vec
+# sklearn.decomposition import PCA
 from matplotlib import pyplot
-import numpy as np
-import tensorflow as tf
+#import numpy as np
+#import tensorflow as tf
 import requests
 #import re
 #import xmltojson
 import sys, json
 from rake_nltk import Rake 
 from wordcloud import WordCloud 
-  
+
 # Initializing the Rake instance 
 rake = Rake() 
 
